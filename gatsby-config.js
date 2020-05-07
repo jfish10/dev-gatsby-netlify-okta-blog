@@ -6,6 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Family Updater`,
+    author: `J.Fisher`,
+  },
   plugins: [`gatsby-plugin-netlify-cms`,
     {
         resolve: `gatsby-source-filesystem`,
