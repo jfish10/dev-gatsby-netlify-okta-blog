@@ -1,6 +1,7 @@
 import OktaSignIn from '@okta/okta-signin-widget';
 import '@okta/okta-signin-widget/dist/css/okta-sign-in.min.css';
 import React from 'react';
+import "../styles/global.css"
 
 const config = {
   baseUrl: 'https://dev-833525.okta.com',
